@@ -1,5 +1,47 @@
-form {
-	/*centering the form */
+body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	width: 960px;
+	background-color: #4aaaa5;
+	color: #777777;
+}
+
+.myname {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: medium;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+nav {
+	float: right;
+}
+main {
+	flex: 1;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-width: medium;
+}
+
+article {
+	width: 650px;
+}
+img {
+	float: left;
+	margin: 0 0 10px 10px; 
+}
+
+form /*centering the form */ {
 	margin: 0 auto;
 	width: 400px;
 	/* to see the outline of the form */
@@ -55,4 +97,13 @@ textarea {
 button {
 	/* this extra margin represents roughly the same space as the space between the labels and their text fields */
 	margin-left: .5em;
+}
+
+aside {
+	width: 270px;
+	float: right;
+}
+
+footer {
+	background-color: #666666;
 }
